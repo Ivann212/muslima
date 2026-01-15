@@ -997,14 +997,7 @@
 
             
 
-            .about-content {
-                grid-template-columns: 1fr;
-                gap: 3rem;
-            }
-
-            .info-content {
-                grid-template-columns: 1fr;
-            }
+            
             
             .testimonials {
                 margin-top: -20vh;
@@ -1058,6 +1051,15 @@
                 padding: 4rem 5%;
             }
 
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+
+            .info-content {
+                grid-template-columns: 1fr;
+            }
+
             .testimonials-grid {
                 grid-template-columns: 1fr;
             }
@@ -1072,9 +1074,13 @@
             }
 
             .about-features {
-                flex-direction: column;
-                gap: 1.5rem;
+                display: flex;          
+                flex-direction: row;     
+                gap: 1.5rem;             
+                justify-content: center; 
+                align-items: center;     
             }
+
 
             .hero-images {
                 height: 350px;
